@@ -1,0 +1,337 @@
+/*Fonts*/
+@import url(https://fonts.googleapis.com/css?family=Princess+Sofia);
+@import url(https://fonts.googleapis.com/css?family=Denk+One);
+@import url(https://fonts.googleapis.com/css?family=Cagliostro);
+@import url(https://fonts.googleapis.com/css?family=Fresca);
+
+
+
+/*Layout*/
+html {
+    height: 100%;
+}
+body {
+    margin: 0px;
+    height: 100%;
+    background-color: #70974D;}
+#outercontainer {
+    width: 100%;
+    min-height: 100%;
+    height: 100%;}
+#container {
+    width: 1020px;
+    min-height: 100%;
+    overflow: auto; 
+    margin: 0 auto; 
+    background-color: #89B166;}
+#imagetop {
+    width: 1020px;}
+
+
+    
+/*Navigation*/
+#navigation {
+    background-color: #A3C288;}
+#navigation li {
+    display: inline-block; 
+    padding-right: 10px; }
+#navigation li a {
+    font-size: 2.2em;
+    color: #FFF;
+    font-family: "Denk One", sans-serif;
+    text-decoration: none;
+    border: 2px solid;
+    background-color: #508033;
+    padding: 2px 8px;}
+#navigation .current {
+    background-color: #335120;
+    padding: 8px 16px;}
+#navigation li a:hover {
+    background-color: #335120;}
+#navigation li a:active {
+    color: #000;}
+
+/*Sökrutan*/
+#search {
+    float: right;
+    position: relative;
+    top: -48px;
+    margin-right: 30px;}
+.search {box-shadow: 2px 2px 2px #4A6433;}
+
+
+
+/*Länkar*/
+a:link {color: #25254B;}
+a:visited {}
+a:hover {
+    color: #FF3399;}
+a:active {
+    color: #800080;}
+
+
+/*Startsidan - text*/                                    /*Layout startsidan*/
+#textStart {
+    float: left;
+    width: 550px;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding: 30px;
+    font-family: Verdana, sans-serif;
+    font-size: 1.2em;}
+    
+#heading {
+    font-family: 'Fresca', Verdana, sans-serif;}
+
+
+/*Startsidan - inlogg, register, bekräftelseruta*/
+form, #confirmText {
+    float: right;
+    width: 270px;
+    font-family: verdana;
+    text-align: center;
+    margin: 20px 23px 10px 20px;
+    padding: 0px 20px 20px 20px;
+    box-shadow: 5px 5px 5px #4A6433;
+    background: -webkit-radial-gradient(#BAE397, #508033); 
+    background: -o-radial-gradient(#BAE397, #508033); 
+    background: -moz-radial-gradient(#BAE397, #508033); 
+    background: radial-gradient(#BAE397, #508033);
+    border-radius: 20px;}
+.forgot {
+    font-size: 0.8em;}
+#button, .button {
+    width: 180px;
+    height: 50px;
+    box-shadow: 3px 3px 5px #4A6433;
+    background-color: #006400;
+    color: #fff;
+    font-size: 1.5em;
+    font-family: 'Cagliostro', sans-serif;}
+#login {
+    margin-top: 10px;
+    margin-bottom: -20px;}
+.input {
+    height: 20px;
+    width: 200px;
+    box-shadow: 5px 5px 5px #4A6433;}
+.label {
+    display: block;}
+#registerButton {
+    font-size: 2em;
+    font-family: 'Cagliostro', sans-serif;
+}
+
+
+/*Startsidan, Kontaktsidan - bilder*/
+#images {
+    float: left;
+    width: 1020px;
+    margin-top: 20px;}
+.image {
+    margin: 30px 5px 100px 15px;
+    height: 175px;
+    width: 300px;
+    border: 6px solid;
+    border-color: #638644;
+    box-shadow: 5px 5px 5px #4A6433;}
+   
+
+/*Footer*/                            /*????*/
+#footer {
+    float: left;}
+
+
+/*Nyheter, Om spelet, Kontakt*/
+#text {
+    float: left;
+    width: 620px;
+    margin-left: 60px;
+    font-family: Verdana, sans-serif;}
+.rubrik, .nyhetsrubrik, .underrubrik {
+    font-family: 'Cagliostro', Verdana, sans-serif;}
+.nyhetsrubrik {
+    line-height: 1px;}
+.datum {
+    font-size:0.8em;
+    font-style:italic;}
+
+
+/*Om spelet*/
+.imageMini {
+    float: left;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #4A6433;
+    margin: 0px 20px 5px 0px;}
+
+.imageOm {
+    margin: 20px 0px 10px 0px;
+    height: 175px;
+    width: 300px;
+    border: 6px solid;
+    border-color: #638644;
+    box-shadow: 5px 5px 5px #4A6433;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #638644;}
+
+#minigames {
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 920px;
+    }
+    
+.gameinfo {
+    min-height: 250px;                        /*KOlla om detta funkar på alla storlekar*/
+    margin-bottom: 20px;
+    padding-right: 20px;
+    font-family: Verdana, sans-serif;
+}
+
+/*pil upp*/
+.arrow {
+    width: 50px;
+    margin-left: 900px;}
+    
+    
+    
+    
+    
+    
+    
+
+/*drop down menu*/
+#menu {
+    float: left;
+    margin-top: 100px;
+    margin-left: 70px;
+    font-size: 2em;
+    list-style: none;
+    font-family: 'Cagliostro', Verdana, sans-serif;}
+#menu ul {
+    padding: 0px;
+    margin: 0px;}
+#menu ul li, h4 {
+    padding: 10px 0px 10px 20px;
+    
+    list-style: none;
+    border: 1.8px solid;
+    color: #fff;
+    margin: 0px;
+    width: 200px;}
+#menu a {                                /*Hela rutan klickbar ? */
+    text-decoration: none;
+    color: #fff;}
+#menu h4 {
+    background-color: #508033; 
+}
+
+.subMenu{
+    font-size: 20px;
+    overflow: hidden;
+    height: 0px;
+    -webkit-transition: height 1s ease;
+    -moz-transition: height 1s ease;
+    -o-transition: height 1s ease;
+    -ms-transition: height 1s ease;
+    transition: height 1s ease;}    
+.subMenu li {
+    background-color: #345E1D;}
+
+.menuItem h4:hover {                        /*Funkar ej*/
+    background-color: #335120;}
+#menu li:hover {
+    background-color: #335120;}
+.menuItem h4:active {
+    color: black;}
+.menuItem h4 a:active {
+    color: black;}
+#menu li:active {
+    color: black;}
+#menu li a:active {
+    color: black;}
+.menuItem:hover ul{
+    height: 145px;}                        /*auto funkar inte med transition*/
+
+
+
+
+/*Register*/
+
+form li {
+    list-style: none;
+    padding-bottom: 1em;}
+#register {
+    width: 450px;
+    text-align: left;
+    float: none;
+    margin: 0px auto;
+    padding-top: 20px;
+    border-radius: 5px; }
+#register label {
+    float: left;
+    width: 150px;
+    margin-right: 4px;
+    text-align: right;}
+#register h2 {
+    text-align: center;}
+#register hr {
+    margin-right: 40px;}
+#buttonReg {
+    text-align: center;}
+.loginInfo {
+    margin-top:20px;                    /*Layout: avstånd mellan??*/
+}
+
+
+#contentReg, #confirm {
+    visibility: hidden;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    width: 1100px;
+    height: 700px;
+    margin-left: -555px;
+    padding-top: 80px;
+    
+    background-image: url(../pics/Bild1.jpg);
+    background-size: 1100px 700px;
+    background-repeat: no-repeat;}
+    
+#confirmText {
+    float: none;
+    margin: 0 auto;
+    font-size: 2em;
+    width: 450px;
+    height: 280px;
+    padding: 30px;
+    padding-bottom: 60px;
+    margin-top: 40px;}    
+    
+#smaller {
+    font-size: 0.5em;}
+
+
+
+#closeRegister, #closeConfirm {
+    float: right;
+    width: 20px;
+}
+
+
+#closeImage1, #closeImage2, #closeImage3 {
+    width: 20px;
+    position: relative;
+    float: right;
+    margin-right: 30px;
+    top: 30px;
+}
+
+#Funka {
+    background-color: yellow;
+    background-size: 1000px;
+}

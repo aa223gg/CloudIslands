@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="sv">
+
+<head>
+    <meta charset="utf-8">
+    <title> Cloud Islands - register </title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>    
+
+<body>
+    <div id="outercontainer">
+    <div id="container">
+       <div id="contentReg">
+            <form id="form" class="register" action="index.html" required, min="5">                                <!-- action="index.html", required, min="5" -->
+                <h2>Registrera konto</h2>
+                <ul>
+                    <div class="memberInfo">
+                   <li> 
+                        <label for="userName" id="labelRegister">Användarnamn:</label>
+                        <input class="registerInput" type="text" id="userName" autofocus>
+                    </li>
+                    <li>
+                        <label for="firstName" id="labelRegister">Förnamn:</label>
+                        <input class="registerInput" type="text" id="firstName">
+                    </li>
+                    <li>
+                        <label for="lastName" id="labelRegister">Efternamn:</label>
+                        <input class="registerInput" type="text" id="lastName">
+                    </li>
+                    <li>
+                        <label for="birthday" id="labelRegister">Födelsedatum:</label>
+                        <input class="registerInput" type="date" id="birthdate">
+                    </li>
+                    </div>
+                    <hr>
+                    <div class="loginInfo">
+                    <li>
+                        <label for="email" id="labelRegister">Epost:</label>
+                        <input class="registerInput" type="email" id="email">
+                    </li>
+                    <li>
+                        <label for="confirmEmail" id="labelRegister">Bekräfta epost:</label>
+                        <input class="registerInput" type="email" id="confirmEmail">
+                    </li>
+                    <li>
+                        <label for="password" id="labelRegister">Lösenord:</label>
+                        <input class="registerInput" type="password" id="password">
+                    </li>
+                    <li>
+                        <label for="confirmPassword"id="labelRegister">Bekräfta lösenord:</label>
+                        <input class="registerInput" type="password" id="confirmPassword">
+                    </li>
+                    </div>
+                </ul>
+                <div id="buttonReg">
+                    <input class="button" type="submit" value="Gå tillbaka"/>               <!-- Länk -->
+                    <input class="button" type="submit" value="Registrera">                 <!--Länk till registrering-->
+                </div>
+            </form>
+        </div>
+    </div>
+    </div>
+    <script src="../scripts/script.js"></script>
+</body>
+</html>

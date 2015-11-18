@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="sv">
+
+<head>
+    <meta charset="utf-8">
+    <title> Cloud Islands - startsida </title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/colorboxCopy.css">
+    
+</head>    
+
+<body>
+    <div id="outercontainer">
+    <div id="container">
+        <div id="header">
+            <img src="../pics/Logga.jpg" alt="Bild + logga" id="imagetop"/>
+        </div>  
+        <div id="navigation">
+            <ul>
+                <li><a class="current" href="index.html" id="start">Start</a></li>
+                <li><a href="nyheter.html">Nyheter</a></li>
+                <li><a href="om_spelet.html">Om spelet</a></li>
+                <li><a href="#">Forum</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </div>
+        <div id="search">
+            <input type="text" class="search">
+            <input type="button" value="Sök" class="search">
+        </div>
+        <div id="content">
+            <div id="textStart">
+                <h1 id="heading">Välkommen till en magisk värld...</h1>
+                
+                <p>...bestående av svävande öar som myllrar 
+                av skogar, berg och sjöar – alla fulla av hemligheter och äventyr! 
+                Varje ö har gott om plats för dig och dina klasskamrater att bygga små byar, 
+                där ni kan bo och bygga, leka och lära, utforska och undersöka. Kanske vill
+                ni även ge er ut på längre äventyr och besöka andra elever och klasser på
+                andra öar?</p>
+                <p><a href="om_spelet.html">Läs mer</a> om spelet som revolutionerar lärande och skola.</p>
+            </div>
+            <div id="form">
+                <form>
+                    <h2>- Logga in -</h2>
+                    <label for="loginUserName" class="label">Användarnamn:</label>
+                    <input class="input" id="loginUserName" type="text">
+                    <br>
+                    <br>
+                    <label for="loginPassword" class="label">Lösenord:</label>
+                    <input class="input" type="password">
+                    <br>
+                    <br>
+                    <input type="checkbox" id="checkbox">
+                    <label for="checkbox">Kom ihåg mig</label>
+                    <br>
+                    <input id="login" class="button" type="submit" value="Logga in">
+                    <br>
+                    <br>
+                    <a href="#" class="forgot">Glömt lösenord?</a>
+                    <br>
+                    <br>
+                    <a href="#" id="registerButton">Skapa konto!</a>
+                </form>
+            </div>
+        </div>
+        <div id="images">
+            <a class="gallery" href="../pics/Bild1BIG.jpg"><img src="../pics/Bild1.jpg" alt="Cloud Islands, öarna" class="image"/></a>
+            <a class="gallery" href="../pics/SpelvarldenBIG.jpg"><img src="../pics/Spelvarlden.jpg" alt="Spelvärlden" class="image"/></a>
+            <a class="gallery" href="../pics/Bild2BIG.jpg"><img src="../pics/Bild2.jpg" alt="Barn i skogen" class="image"/></a>
+        </div>
+    </div>
+    
+    <!--Register-->
+   <div id="contentReg">
+            <form id="register">                                <!-- action="index.html", required, min="5" -->
+                <a href="#"><img src="../pics/close.png" id="closeRegister" alt="Stäng forumläret"/></a>
+                <h2>Registrera konto</h2>
+                <ul>
+                    
+                   <li> 
+                        <label for="registerUserName">Användarnamn:</label>
+                        <input class="registerInput" id="registerUserName" type="text">
+                    </li>
+                    <li>
+                        <label for="firstName">Förnamn:</label>
+                        <input class="registerInput" type="text">
+                    </li>
+                    <li>
+                        <label for="lastName">Efternamn:</label>
+                        <input class="registerInput" type="text">
+                    </li>
+                    <li>
+                        <label for="birthday">Födelsedatum:</label>
+                        <input class="registerInput" type="date">
+                    </li>
+                    <hr>
+                    <li class="loginInfo">
+                        <label for="email">Epost:</label>
+                        <input class="registerInput" type="email">
+                    </li>
+                    <li>
+                        <label for="confirmEmail">Bekräfta epost:</label>
+                        <input class="registerInput" type="email">
+                    </li>
+                    <li>
+                        <label for="password">Lösenord:</label>
+                        <input class="registerInput" type="password">
+                    </li>
+                    <li>
+                        <label for="confirmPassword">Bekräfta lösenord:</label>
+                        <input class="registerInput" type="password">
+                    </li>
+                    
+                </ul>
+                <div id="buttonReg">
+                    <input id="button" type="submit" value="Registrera">                 <!--Länk till registrering-->
+                </div>
+            </form>
+        </div>
+    
+        <div id="confirm">
+            <div id="confirmText">
+                <a href="#"><img src="../pics/close.png" id="closeConfirm" alt="Stäng fönster"/></a>
+                <br>
+                <p>Du är nu registrerad som användare.</p>
+                <p id="smaller">Dina användaruppgifter har skickats till den epostadress du uppgav.</p>
+                <p>Välkommen att logga in!</p>
+            </div>
+        </div>
+    </div>
+    <script src="../scripts/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="../scripts/jquery.colorbox-min.js"></script>
+    <script src="../scripts/jquery.js"></script>
+</body>
+    
+</html>
